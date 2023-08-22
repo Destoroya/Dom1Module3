@@ -1,0 +1,41 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maximum</title>
+    <style>
+        body {
+     background-color: white;
+    }
+    @media screen and (max-width: 768px) {
+     body {
+        background-color: rgb(255, 255, 255);
+    }
+   }
+   @media screen and (max-width: 769px) {
+     body {
+        background-color: rgb(255, 254, 254);
+    }
+   }
+    </style>
+</head>
+<body>
+    
+ <div class="container">
+ <h1>Адаптивность сайта</h1>
+ <p>Пример Адаптивного Макета</p>
+ </div>
+
+</body>
+</html>
+
+CSS
+
+.container{
+ background-color:#f2f2f2;
+ padding: 20px;
+ margin: 0 auto;
+}
